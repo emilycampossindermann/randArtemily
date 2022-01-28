@@ -12,8 +12,6 @@
 
 
 make_Art <- function(seed){
-  install.packages("aRtsy")
-  library(aRtsy)
   set.seed(seed) # set seed
   colorpal <- colorPalette('random', 5)# random colorpallette
   art_functions <- powerfuns <- vector("list", 5) # random art list containing 5 different functions from the aRtsy package
